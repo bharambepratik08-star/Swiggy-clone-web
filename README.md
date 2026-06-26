@@ -44,7 +44,6 @@ git clone https://github.com/your-username/Swiggy-clone-web.git
 
 ## 📸 Screenshots
 
-(Add screenshots here after completing the project.)
 
 ## 🎯 Future Improvements
 
