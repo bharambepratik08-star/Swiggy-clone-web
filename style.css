@@ -174,7 +174,8 @@
 }
 
 .option_text {
-    margin: 120px auto 0 auto;
+    margin: 120px 0px 0px 0px;
+    width: 70%;
 }
 
 .food_text {
@@ -183,7 +184,7 @@
     font-size: 24px;
     line-height: 26px;
     color: rgba(2, 6, 12, 0.92);
-    overflow: hidden;
+    display: inline-block;
 }
 
 .arrow {
@@ -199,8 +200,16 @@
 .arrow_scroll {
     display: flex;
     align-items: center;
+    gap: 8px;
 }
 
-.lefta {
-    margin-right: 5px;
+.text_arrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.food_option {
+    display: flex;
+    justify-content: center;
 }
