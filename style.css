@@ -149,3 +149,26 @@
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
+.lower_orange {
+    background-color: #ff5200;
+    padding: 0px 8px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner{
+    width:75%;
+    display:flex;
+    gap:24px;
+}
+
+.card{
+    flex:1;
+}
+
+.card img{
+    width:100%;
+    height:auto;
+    display:block;
+}
