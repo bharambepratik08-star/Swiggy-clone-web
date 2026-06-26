@@ -33,7 +33,7 @@
 .font {
     font-size: 16px;
     color: white;
-    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;;
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
     font-style: normal;
     cursor: pointer;
     line-height: 21px;
@@ -65,4 +65,87 @@
     justify-content: center;
     align-items: center;
     background-color: black;
+}
+
+.mid {
+    padding: 64px 0px 32px;
+    background-color: #ff5200;
+}
+
+.vege {
+    height: 450px !important;
+    width: 250px !important;
+    position: absolute;
+    object-fit: cover;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+
+.comment {
+    color: white;
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    width: 60%;
+    margin: 0px auto;
+    padding-left: 12px;
+    letter-spacing: -0.3px;
+    line-height: 56px;
+}
+
+.inputmidbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 22px;
+}
+
+.location {
+    background-color: white;
+    line-height: normal;
+    border: none;
+    outline: 0;
+    height: 58px;
+    width: 220px;
+    font-size: 16px;
+    margin: 0;
+    border-radius: 0;
+    font-weight: 900;
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+}
+
+.locationlogo {
+    background-color: white;
+    line-height: normal;
+    border: none;
+    outline: 0;
+    height: 58px;
+    width: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.downarrow {
+    background-color: white;
+    line-height: normal;
+    border: none;
+    outline: 0;
+    height: 58px;
+    width: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
