@@ -213,3 +213,18 @@
     display: flex;
     justify-content: center;
 }
+
+.counter_section{
+    height: 180px;
+}
+
+.counter_images {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.food_images {
+    width: 70%;
+    overflow-x: scroll;
+}
