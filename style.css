@@ -158,7 +158,7 @@
 }
 
 .banner{
-    width:75%;
+    width:81%;
     display:flex;
     gap:24px;
 }
@@ -173,12 +173,12 @@
     display:block;
 }
 
-.option_text {
+.textarrrow_display_css {
     margin: 120px 0px 0px 0px;
-    width: 70%;
+    width: 80%;
 }
 
-.food_text {
+.text_arrow_cont {
     font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
     font-weight: 900;
     font-size: 24px;
@@ -225,6 +225,20 @@
 }
 
 .food_images {
-    width: 70%;
+    width: 80%;
     overflow-x: scroll;
+    padding-top: 30px;
+}
+
+.instamart_need {
+    display: flex;
+    justify-content: center;
+}
+
+.insta_text {
+    font-weight: 800;
+    font-size: 20px;
+    color: rgba(2, 6, 12, 0.75);
+    text-align: center;
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
 }
