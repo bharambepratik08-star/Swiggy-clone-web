@@ -261,3 +261,9 @@
     display: flex;
     justify-content: center;
 }
+
+.upper_banner {
+    background-image: url(images/casttlehousebg.jpg);
+    width: 326px;
+    object-fit: contain;
+}
