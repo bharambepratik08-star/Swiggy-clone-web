@@ -271,7 +271,7 @@
     flex-wrap: wrap;
 }
 
-.upper_banner {
+.upper_banner_1{
     background-image: url(images/casttlehousebg.jpg);
     height: 190px;
     width: 326px;
@@ -323,7 +323,7 @@
 
 .lower_banner {
     height: 210px;
-    width: 326px;
+    width: 100%;
     padding: 8px 0px 0px 0px;
     box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.2);
     border-bottom-left-radius: 15px;
@@ -414,4 +414,18 @@
     display: flex;
     justify-content: center;
     margin-top: 30px;
+}
+
+.upper_banner_2{
+    background-image: url(images/udupibg.jpg);
+    height: 190px;
+    width: 326px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
