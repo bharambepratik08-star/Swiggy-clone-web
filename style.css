@@ -442,11 +442,16 @@
 
 .self_marketing {
     width: 80%;
-    margin: 0 auto; /* Centers the banner */
+    margin: 0 auto; 
 }
 
 .self_marketing img {
-    width: 100%;    /* Fills the 80% container */
-    height: auto;   /* Auto-adjusts height perfectly based on width */
-    display: block; /* Removes unwanted bottom whitespace */
+    width: 100%;   
+    height: auto; 
+    display: block; 
+}
+
+.option_city_food {
+    width: 80%;
+    margin: 0 auto; 
 }
