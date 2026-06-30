@@ -271,8 +271,7 @@
     flex-wrap: wrap;
 }
 
-.upper_banner_1{
-    background-image: url(images/casttlehousebg.jpg);
+.upper_banner{
     height: 190px;
     width: 326px;
     background-size: cover;
@@ -408,6 +407,7 @@
     gap: 40px;
     width: 80%;
     height: 440px;
+    margin-bottom: 120px;
 }
 
 .dineout_hotels_rating {
@@ -416,16 +416,37 @@
     margin-top: 30px;
 }
 
-.upper_banner_2{
+.chbg {
+    background-image: url(images/casttlehousebg.jpg);
+}
+
+.utssbg{
     background-image: url(images/udupibg.jpg);
-    height: 190px;
-    width: 326px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+}
+
+.tdmcbg{
+    background-image: url(images/thedaddybg.jpg);
+}
+
+.ccrbg{
+    background-image: url(images/cavescounty.jpg);
+}
+
+.slbg{
+    background-image: url(images/skyloudgebg.jpg);
+}
+
+.clrbg {
+    background-image: url(images/curryleavesbg.jpg);
+}
+
+.self_marketing {
+    width: 80%;
+    margin: 0 auto; /* Centers the banner */
+}
+
+.self_marketing img {
+    width: 100%;    /* Fills the 80% container */
+    height: auto;   /* Auto-adjusts height perfectly based on width */
+    display: block; /* Removes unwanted bottom whitespace */
 }
