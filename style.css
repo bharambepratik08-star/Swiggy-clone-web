@@ -451,7 +451,135 @@
     display: block; 
 }
 
+.hsfrbg {
+    background-image: url(images/hotelsagarbg.jpg);
+}
+
+.sbbg {
+    background-image: url(images/sbbg.jpg);
+}
+
+.cbg {
+    background-image: url(images/cbg.jpg);
+}
+
 .option_city_food {
     width: 80%;
     margin: 0 auto; 
+}
+
+.box_for_city {
+    height: 50px;
+    width: 22%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1.5px solid rgba(2, 6, 12, 0.15);
+}
+
+.city_name {
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(2, 6, 12, 0.75);
+    text-align: center;
+}
+
+.show_more {
+    margin: 0px;
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.35px;
+    color: rgb(255, 82, 0);
+}
+
+.food_city_option_box {
+    width: 80%;
+    margin: 20px auto 0px auto; 
+}
+
+.city_box_one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city_box_two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.city_box_three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.option_insta_food {
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.box_for_insta {
+    height: 60px;
+    width: 22%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1.5px solid rgba(2, 6, 12, 0.15);
+}
+
+.insta_name {
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(2, 6, 12, 0.75);
+    text-align: center;
+    padding: 10px;
+}
+
+.show_more {
+    margin: 0px;
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.35px;
+    color: rgb(255, 82, 0);
+}
+
+.insta_city_option_box {
+    width: 80%;
+    margin: 20px auto 0px auto; 
+}
+
+.insta_box_one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.insta_box_two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.insta_box_three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 }
